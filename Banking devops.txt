@@ -1,0 +1,40 @@
+
+BankingDomain Devops
+---------------------
+
+Healthcare
+Ecommerce
+CI/CD
+
+Linux Shellscript
+Python
+
+In banking SCRUM will be every 15 days release and sprint will be every 7 days.
+
+The hotfix will be in BRANCH and need to be fixed every 15 min, otherwise reverted back to the previous.
+
+Banking Function
+================
+Sonarcube --- port coverage for vulnerability check
+
+
+Artefactrt
+-----------
+Nexus/Jfrog/Docker/NAS  -- To Store the build in these artefactory for deployment
+
+Then next is the Deploy 
+
+SAT/UAT (system acceptence and user acceptance test)
+
+Deploy is of 2 methods
+
+1) grey/green method
+
+2) canvoy method
+
+Grey/green method
+------------------ 
+In this exact replica/similar of the production setup will there and any patch update will be checked in the similar server and once is ok, then the ipaddress/port will be changed and the slave will be chenged to master. 
+
+Canavoy method
+--------------
